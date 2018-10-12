@@ -1,4 +1,14 @@
 
+var examplemessage = {
+    createdBy: "shelf.jetted.purple",
+    createdOn: new Date(2018,10,12),
+    expiresOn: new Date(2018,11,12),
+    latitude: 48.249586,
+    longitude: 11.634431,
+    own: true,
+    text: "faf",
+}
+
 var yummy = {
     name: "#Yummy",
     createdOn: new Date(2016, 03, 01), /* month 0 is jan. */
@@ -6,7 +16,7 @@ var yummy = {
     starred: false,
     expiresIn: 100,
     messageCount: 999,
-    messages : []           // #10 #message s property in #chl object
+    messages : [examplemessage,examplemessage]           // #10 #message s property in #chl object
 };
 
 var sevencontinents = {
@@ -16,7 +26,7 @@ var sevencontinents = {
     starred: true,
     expiresIn: 60,
     messageCount: 5,
-    messages : []           // #10 #message s property in #chl object
+    messages : [examplemessage]           // #10 #message s property in #chl object
 
 };
 
@@ -52,3 +62,4 @@ var octoberfest = {
     messages : []           // #10 #message s property in #chl object
 
 };
+
